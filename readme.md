@@ -4,8 +4,8 @@ download all files
 
 ## Requirements
 
+PHP >= 5.6.4 , 
 PHP Curl extension 
-PHP >= 5.6.4
 
 ## Install  The Dependencies
 
