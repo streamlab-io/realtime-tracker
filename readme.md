@@ -2,6 +2,14 @@
 
 download all files
 
+## Install  The Dependencies
+
+now type this on your console make sure that your PHP >= 5.6.4
+
+```
+composer update
+```
+
 ## migrate
 
 ```
