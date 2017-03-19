@@ -259,7 +259,6 @@
 
     /**
      * watch option
-     * @type {{enableHighAccuracy: boolean, timeout: number, maximumAge: number}}
     */
 
     options = {
