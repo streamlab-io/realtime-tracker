@@ -110,7 +110,7 @@
         var AR = new AjaxRegister({
             form:'form',
             error:"error",
-            doneUrl:"/home",
+            doneUrl:"/geo",
             input:[
                 ['name' , 'required']
                 ,['email','required' ] ,

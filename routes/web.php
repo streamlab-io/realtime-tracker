@@ -11,12 +11,10 @@
 |
 */
 
- Route::get('/', function () {
-   return redirect('home');
-});
+ Route::get('/', 'HomeController@geo');
 Auth::routes();
-Route::get('/home', 'HomeController@index');
-Route::get('/geo/{id?}', 'HomeController@geo');
+Route::get('/home', 'HomeController@geo');
+Route::get('/geo', 'HomeController@geo');
 
 
 

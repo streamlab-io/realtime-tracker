@@ -90,7 +90,7 @@
             email:"email",
             password:"password",
             btn:"btn",
-            successUrl:"/home"
+            successUrl:"/geo"
         });
     </script>
 
