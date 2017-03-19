@@ -1,6 +1,6 @@
 ## Download the files 
 
-download all files from this git
+download all files
 
 ## migrate
 
@@ -14,13 +14,17 @@ go to streamlab website http://streamlab.io/
 then open application get the key and token add them to config/stream_lab.php
 
 ```php
-return[
-    'app_id'=>'',
-    'token'=>''
-];
+  return[
+      'app_id'=>'',
+      'token'=>''
+  ];
 ```
 
-## Strat
+## Create Cahnnel
+
+make sure you create public channel to your application call "geo"
+
+## Start
 
 ```
  php artisan serve
