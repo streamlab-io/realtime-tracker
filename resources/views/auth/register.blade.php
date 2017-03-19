@@ -110,14 +110,14 @@
         var AR = new AjaxRegister({
             form:'form',
             error:"error",
-            doneUrl:"/geo",
+            doneUrl:"/home",
             input:[
                 ['name' , 'required']
                 ,['email','required' ] ,
                 ['password','required' ],
                 ['password_confirmation','required' ],
                 ['_token','required' ],
-                    ['bio' , 'required' ]
+                ['bio' , 'required' ]
             ]
         });
     </script>
