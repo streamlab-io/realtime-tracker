@@ -2,12 +2,20 @@
 
 download all files
 
+## Requirements
+
+PHP Curl extension 
+PHP >= 5.6.4
+
 ## Install  The Dependencies
 
-now type this on your console make sure that your PHP >= 5.6.4
+now type this line on your console
 
 ```
-composer update
+composer install
+```
+```
+php artisan key:generate
 ```
 
 ## migrate
@@ -19,7 +27,7 @@ composer update
 ## Add App key 
 
 go to streamlab website http://streamlab.io/
-then open application get the key and token add them to config/stream_lab.php
+then open application get the `key` and `token` add them to `config/stream_lab.php`
 
 ```php
   return[
@@ -30,7 +38,7 @@ then open application get the key and token add them to config/stream_lab.php
 
 ## Create Cahnnel
 
-make sure you create public channel to your application call "geo"
+make sure you create public `channel` to your application call `geo`
 
 ## Start
 
